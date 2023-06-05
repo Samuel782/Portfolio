@@ -12,3 +12,10 @@ function lightpage(){
     document.getElementById("DarkMode").classList.remove("active");
     document.getElementById("LightMode").classList.add("active");
 }
+
+var dateobj = new Date();
+
+var dateObject = dateobj.getFullYear();
+
+var currentage = dateObject - 2007
+document.getElementById("age").textContent = currentage;
