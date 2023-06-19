@@ -1,9 +1,10 @@
-#heropic{
+#heropic {
     width: 50%;
 }
-@media only screen and (max-width: 1000px){
 
-    #heropic{
+@media only screen and (max-width: 1000px) {
+
+    #heropic {
         width: 100%;
     }
 }
