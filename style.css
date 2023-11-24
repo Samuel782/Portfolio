@@ -1,3 +1,6 @@
+
+@import url('font/impact.ttf');
+@import url('font/Impacted.ttf');
 #heropic {
     width: 50%;
 }
@@ -7,4 +10,50 @@
     #heropic {
         width: 100%;
     }
+}
+
+#works #bw-card {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+@keyframes bw-cardAnim {
+    from {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    }
+    to {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    }
+  }
+
+#works #bw-card:hover{
+
+    animation: bw-cardAnim ease-out 0.5s forwards;
+  
+}
+
+@keyframes textshow {
+    from{opacity: 0;}
+    to{opacity: 100;}
+}
+
+
+#works #bw-card .card-title{
+    position: absolute;
+    padding-top: 1rem;
+    padding-right: 4px;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 2;
+    font-family: 'Impact', sans-serif;
+    font-size: 30px;
+    opacity: 0;
+
+}
+
+#works #bw-card .card-title:hover{
+    animation: textshow ease-out 0.5s forwards;
 }

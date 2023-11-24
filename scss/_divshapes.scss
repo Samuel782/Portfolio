@@ -1,0 +1,97 @@
+
+
+$color-mode-type: data;
+@include color-mode(light){
+.custom-shape-divider-bottom-1700815147 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1700815147 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 132px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1700815147 .shape-fill {
+    fill: $body-bg;
+}
+
+
+.custom-shape-divider-bottom-1700815657 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1700815657 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1700815334 .shape-fill {
+    fill: $body-secondary-bg;
+}
+
+}
+@include color-mode(dark){
+
+
+    .custom-shape-divider-bottom-1700815147 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1700815147 svg {
+        position: relative;
+        display: block;
+        width: calc(139% + 1.3px);
+        height: 132px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1700815147 .shape-fill {
+        fill: $body-bg-dark;
+    }
+    
+    
+    .custom-shape-divider-bottom-1700815657 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1700815657 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 69px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1700815334 .shape-fill {
+        fill: $body-secondary-bg-dark;
+    }
+
+}
