@@ -1,6 +1,19 @@
 
 @import url('font/impact.ttf');
 @import url('font/Impacted.ttf');
+
+
+
+@font-face {
+    font-family: 'quinquefiveregular';
+    src: url('font/quinquefive-alorm-webfont.woff2') format('woff2'),
+         url('font/quinquefive-alorm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 #heropic {
     width: 50%;
 }
@@ -48,12 +61,28 @@
     bottom: 0;
     color: #fff;
     z-index: 2;
-    font-family: 'Impact', sans-serif;
-    font-size: 30px;
+
+    font-size: 18px;
     opacity: 0;
 
 }
 
 #works #bw-card .card-title:hover{
     animation: textshow ease-out 0.5s forwards;
+}
+
+
+#whoami{
+    font-family: 'quinquefiveregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    word-spacing: -10px;
+}
+
+.eighthbit{
+    font-family: 'quinquefiveregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    word-spacing: -10px;
+
 }
